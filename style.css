@@ -122,8 +122,15 @@ header.sticky ul li a:hover {
 /*------------------------------------------ HOME -------------------------------------------*/
 
 .home {
-  background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23747e7a%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23969e9b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2396af96%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23b0c3b0%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22c%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23bcdea5%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23cce6bb%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath fill=%22%23574951%22 d=%22M0 0h2000v1000H0z%22%2F%3E%3Cpath d=%22M0 250c92.718 24.11 185.436 48.221 276 35 90.564-13.221 178.973-63.774 247-67 68.027-3.226 115.67 40.877 198 63 82.33 22.123 199.345 22.268 292 21 92.655-1.268 160.949-3.948 238-26 77.051-22.052 162.86-63.476 255-76 92.14-12.524 190.611 3.85 274 17 83.389 13.15 151.694 23.075 260 33l-40 750H0Z%22 fill=%22url(%23a)%22%2F%3E%3Cpath d=%22M0 500c86.709-4.348 173.417-8.696 249 8 75.583 16.696 140.04 54.434 222 54 81.96-.434 181.426-39.042 267-56 85.574-16.958 157.256-12.268 245-17 87.744-4.732 191.55-18.887 279-17 87.45 1.887 158.544 19.816 232 19 73.456-.816 149.273-20.376 234-22 84.727-1.624 178.363 14.688 312 31l-40 500H0Z%22 fill=%22url(%23b)%22%2F%3E%3Cpath d=%22M0 750c94.001 36.066 188.002 72.133 273 60 84.998-12.133 160.993-72.465 244-76 83.007-3.535 173.027 49.728 249 63 75.973 13.272 137.899-13.446 223-14 85.101-.554 193.378 25.058 280 22 86.622-3.058 151.59-34.785 224-35 72.41-.215 152.26 31.081 238 33 85.74 1.919 177.37-25.54 309-53l-40 250H0Z%22 fill=%22url(%23c)%22%2F%3E%3C%2Fsvg%3E");
-  min-height: 100vh;
+ 
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  /* background-image: url("data:image/svg+xml;utf8,%3Csvg width=%222000%22 height=%221000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22a%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23747e7a%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23969e9b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%2396af96%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23b0c3b0%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient id=%22c%22 gradientTransform=%22rotate(90)%22%3E%3Cstop offset=%225%25%22 stop-color=%22%23bcdea5%22%2F%3E%3Cstop offset=%2295%25%22 stop-color=%22%23cce6bb%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath fill=%22%23574951%22 d=%22M0 0h2000v1000H0z%22%2F%3E%3Cpath d=%22M0 250c92.718 24.11 185.436 48.221 276 35 90.564-13.221 178.973-63.774 247-67 68.027-3.226 115.67 40.877 198 63 82.33 22.123 199.345 22.268 292 21 92.655-1.268 160.949-3.948 238-26 77.051-22.052 162.86-63.476 255-76 92.14-12.524 190.611 3.85 274 17 83.389 13.15 151.694 23.075 260 33l-40 750H0Z%22 fill=%22url(%23a)%22%2F%3E%3Cpath d=%22M0 500c86.709-4.348 173.417-8.696 249 8 75.583 16.696 140.04 54.434 222 54 81.96-.434 181.426-39.042 267-56 85.574-16.958 157.256-12.268 245-17 87.744-4.732 191.55-18.887 279-17 87.45 1.887 158.544 19.816 232 19 73.456-.816 149.273-20.376 234-22 84.727-1.624 178.363 14.688 312 31l-40 500H0Z%22 fill=%22url(%23b)%22%2F%3E%3Cpath d=%22M0 750c94.001 36.066 188.002 72.133 273 60 84.998-12.133 160.993-72.465 244-76 83.007-3.535 173.027 49.728 249 63 75.973 13.272 137.899-13.446 223-14 85.101-.554 193.378 25.058 280 22 86.622-3.058 151.59-34.785 224-35 72.41-.215 152.26 31.081 238 33 85.74 1.919 177.37-25.54 309-53l-40 250H0Z%22 fill=%22url(%23c)%22%2F%3E%3C%2Fsvg%3E"); */
+  /* min-height: 100vh; */
+  
+  
   position: relative;
   background-size: cover;
   background-position: center center;
@@ -181,6 +188,7 @@ h3 .dev {
 /*----------------------------------- About Me --------------------------------------------*/
 
 .about-container {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
