@@ -194,6 +194,8 @@ h3 .dev {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  padding-left: 15px;
+  
 }
 
 .about-container h3 {
@@ -581,6 +583,7 @@ textarea::placeholder {
 }
 
 /*===================================== Responsive ========================================*/
+
 
 @media (max-width: 991px) {
 
